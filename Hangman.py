@@ -1,14 +1,5 @@
 # HANGMAN GAME
 
-
-# ran=random.choices(['a','s','d'],['f','g'])
-# print(ran)
-# p=(input("write a word: "))
-# print(lives_visual_dict[lives])
-# # if ran==p:
-# #     print("yoyo")
-# word =["yoyo","afd"]
-# if __name__ == '__main__':
 from hangman_visual import lives_visual_dict
 import random
 from word import word 
@@ -56,8 +47,6 @@ def hangman():
         print('You died, sorry. The word was', words)
     else:
         print('YAY! You guessed the word', words, '!!')
-
-
 
 hangman()
 
